@@ -1,8 +1,38 @@
 ﻿using Fundamentos_.NET.Models;
 
+int qtdEstoque = 2;
+int qtdCompra = 5;
+bool possivelVenda = qtdCompra > 0 && qtdEstoque >= qtdCompra;
+
+Console.WriteLine($"Quantidade em estoque: {qtdEstoque}");
+Console.WriteLine($"Quantidade compra: {qtdCompra}");
+Console.WriteLine($"É possivel realizar a venda {possivelVenda}");
+
+if(qtdCompra == 0){
+    Console.WriteLine("Venda inválida");
+}
+else if(possivelVenda){
+    Console.WriteLine("Venda realizada");
+}
+else{
+    Console.WriteLine("Desculpa. Não temos a quantidade desejada no estoque");
+}
+
+// int a = Convert.ToInt32("a");
+// int a = int.Parse("5");
+// Console.WriteLine(a);
+
+// Operadoe de atribuição
+// int a = 10;
+// int b = 20;
+// int c = a + b;
+// Console.WriteLine(c);
+// c = c + 5;
+// Console.WriteLine(c);
+
 // Pega a data da maquina atual
-DateTime dataAtual = DateTime.Now.AddDays(5);
-Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
+// DateTime dataAtual = DateTime.Now.AddDays(5);
+// Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
 
 // string apresentacao = "Olá, seja bem vindo";
 // int quantidade = 1;
