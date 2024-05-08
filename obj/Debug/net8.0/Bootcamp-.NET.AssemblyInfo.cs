@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Fundamentos .NET")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Bootcamp-.NET")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Fundamentos .NET")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Fundamentos .NET")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0424b68fc2a17e6172760c4d7eac2138a1f80d22")]
+[assembly: System.Reflection.AssemblyProductAttribute("Bootcamp-.NET")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Bootcamp-.NET")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

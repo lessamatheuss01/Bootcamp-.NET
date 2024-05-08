@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mathe\\OneDrive\\Documentos\\DIO - Bootcamp .Net Develop\\Fundamentos .NET\\Fundamentos .NET.csproj": {}
+    "C:\\Users\\mathe\\Documents\\DIO - Bootcamp .Net Develop\\Fundamentos .NET\\Bootcamp-.NET\\Bootcamp-.NET.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mathe\\OneDrive\\Documentos\\DIO - Bootcamp .Net Develop\\Fundamentos .NET\\Fundamentos .NET.csproj": {
+    "C:\\Users\\mathe\\Documents\\DIO - Bootcamp .Net Develop\\Fundamentos .NET\\Bootcamp-.NET\\Bootcamp-.NET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mathe\\OneDrive\\Documentos\\DIO - Bootcamp .Net Develop\\Fundamentos .NET\\Fundamentos .NET.csproj",
-        "projectName": "Fundamentos .NET",
-        "projectPath": "C:\\Users\\mathe\\OneDrive\\Documentos\\DIO - Bootcamp .Net Develop\\Fundamentos .NET\\Fundamentos .NET.csproj",
+        "projectUniqueName": "C:\\Users\\mathe\\Documents\\DIO - Bootcamp .Net Develop\\Fundamentos .NET\\Bootcamp-.NET\\Bootcamp-.NET.csproj",
+        "projectName": "Bootcamp-.NET",
+        "projectPath": "C:\\Users\\mathe\\Documents\\DIO - Bootcamp .Net Develop\\Fundamentos .NET\\Bootcamp-.NET\\Bootcamp-.NET.csproj",
         "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mathe\\OneDrive\\Documentos\\DIO - Bootcamp .Net Develop\\Fundamentos .NET\\obj\\",
+        "outputPath": "C:\\Users\\mathe\\Documents\\DIO - Bootcamp .Net Develop\\Fundamentos .NET\\Bootcamp-.NET\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config"
