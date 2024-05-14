@@ -1,22 +1,50 @@
-﻿using Fundamentos_.NET.Models;
+﻿using Bootcamp_.NET.Models;
+using Fundamentos_.NET.Models;
 
-int qtdEstoque = 2;
-int qtdCompra = 5;
-bool possivelVenda = qtdCompra > 0 && qtdEstoque >= qtdCompra;
+Calculadora calc = new Calculadora();
+calc.Somar(3, 4);
+calc.Subtrair(5, 3);
+calc.Mutiplicar(9, 5);
+calc.Dividir(5, 2);
+calc.Potencia(3, 3);
 
-Console.WriteLine($"Quantidade em estoque: {qtdEstoque}");
-Console.WriteLine($"Quantidade compra: {qtdCompra}");
-Console.WriteLine($"É possivel realizar a venda {possivelVenda}");
+// Console.WriteLine("Digite uma letra");
+// string letra = Console.ReadLine();
 
-if(qtdCompra == 0){
-    Console.WriteLine("Venda inválida");
-}
-else if(possivelVenda){
-    Console.WriteLine("Venda realizada");
-}
-else{
-    Console.WriteLine("Desculpa. Não temos a quantidade desejada no estoque");
-}
+// switch(letra){
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":
+//         Console.WriteLine("Vogal");
+//         break;
+//     default:
+//         Console.WriteLine("Não é vogal");
+//         break;
+// }
+
+// if(letra == "a"){
+//     Console.WriteLine("vogal");
+// }
+
+// int qtdEstoque = 2;
+// int qtdCompra = 5;
+// bool possivelVenda = qtdCompra > 0 && qtdEstoque >= qtdCompra;
+
+// Console.WriteLine($"Quantidade em estoque: {qtdEstoque}");
+// Console.WriteLine($"Quantidade compra: {qtdCompra}");
+// Console.WriteLine($"É possivel realizar a venda {possivelVenda}");
+
+// if(qtdCompra == 0){
+//     Console.WriteLine("Venda inválida");
+// }
+// else if(possivelVenda){
+//     Console.WriteLine("Venda realizada");
+// }
+// else{
+//     Console.WriteLine("Desculpa. Não temos a quantidade desejada no estoque");
+// }
 
 // int a = Convert.ToInt32("a");
 // int a = int.Parse("5");
